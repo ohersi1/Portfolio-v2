@@ -89,6 +89,7 @@ body {
 		url(https://images.pexels.com/photos/331684/pexels-photo-331684.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .nav-bar {
 	display: grid;
@@ -97,9 +98,11 @@ body {
 }
 
 .hamburger-icon {
+	padding-right: 10px;
+	color: #fff;
 	grid-column-start: 12;
 	grid-column-end: 12;
-	font-size: 1.7rem;
+	font-size: 2.5rem;
 	cursor: pointer;
 }
 
@@ -151,6 +154,30 @@ ul.links {
 .initial-greeting p {
 	font-size: 30px;
 	font-weight: 300;
+}
+
+.headshot {
+	height: auto;
+}
+.headshot img {
+	width: 50%;
+	max-width: 100%;
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	/* border-radius: 12px; */
+}
+
+.my-profile h3 {
+	text-align: center;
+	padding: 50px 0px;
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.my-profile p {
+	padding: 0 30px;
+	font-size: 1.2rem;
 }
 
 @media screen and (max-width: 620px) {
