@@ -73,6 +73,10 @@ select {
 	}
 }
 
+:root {
+	--accent-color: #08aeea;
+}
+
 body {
 	font-family: "Mulli", sans-serif;
 	font-weight: 300;
@@ -137,7 +141,7 @@ ul.links {
 }
 
 .accent-color {
-	color: #08aeea;
+	color: var(--accent-color);
 }
 
 .initial-greeting h1,
@@ -165,19 +169,51 @@ ul.links {
 	padding-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 80px;
 	/* border-radius: 12px; */
 }
 
 .my-profile h3 {
 	text-align: center;
-	padding: 50px 0px;
+	padding: 100px 0px;
 	font-weight: 500;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 .my-profile p {
 	padding: 0 30px;
 	font-size: 1.2rem;
+}
+
+.third-section {
+	background-color: rgba(250, 250, 250, 0.7);
+	padding-bottom: 80px;
+}
+
+.third-section h3 {
+	text-align: center;
+	padding: 100px 0px 80px 0px;
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.tech-stack {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 80px;
+}
+
+.tech-stack p {
+	margin-bottom: -70px;
+	font-weight: 500;
+	font-size: 1.3rem;
+}
+
+.tech-stack i {
+	font-size: 7rem;
+	color: black;
 }
 
 @media screen and (max-width: 620px) {
