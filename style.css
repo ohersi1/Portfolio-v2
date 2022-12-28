@@ -217,8 +217,65 @@ ul.links {
 }
 
 .fourth-section {
-	background-color: rgba(250, 250, 250, 0);
 	padding: 20px;
+}
+
+.card {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.fourth-section h3 {
+	text-align: center;
+	padding: 100px 0px 80px 0px;
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.card h5 {
+	padding: 0px 100px;
+}
+
+.card i {
+	font-size: 1.5rem;
+	padding: 20px;
+	color: black;
+}
+
+.fifth-section {
+	background-color: rgba(250, 250, 250, 0.7);
+}
+
+.fifth-section h3 {
+	text-align: center;
+	padding: 100px 0px 80px 0px;
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.contact-form-div {
+	background-color: pink;
+}
+
+form {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}
+
+input[name="Name"],
+input[name="Email"],
+textarea,
+button {
+	padding: 5px;
+}
+
+button {
+	margin-top: 20px;
+	background-color: white;
+	border: 1px black solid;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 620px) {
