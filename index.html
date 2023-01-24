@@ -13,7 +13,7 @@
 		<title>Welcome to my website</title>
 	</head>
 	<body>
-		<section class="first-section">
+		<section class="first-section" id="home">
 			<div class="nav-bar">
 				<nav class="hamburger-icon">
 					<i class="fa-solid fa-bars"></i>
@@ -36,7 +36,7 @@
 				</p>
 			</div>
 		</section>
-		<section class="second-section">
+		<section class="second-section" id="about">
 			<div class="my-profile">
 				<h3>About Me</h3>
 				<p>
@@ -62,7 +62,7 @@
 				<img src="./Headshot.jpg" alt="" />
 			</div>
 		</section>
-		<section class="third-section">
+		<section class="third-section" id="skills">
 			<h3>Skills</h3>
 			<div class="tech-stack">
 				<p>HTML5</p>
@@ -77,7 +77,7 @@
 				<i class="fa-brands fa-react"></i>
 			</div>
 		</section>
-		<section class="fourth-section">
+		<section class="fourth-section" id="projects">
 			<h3>Projects</h3>
 			<div class="card">
 				<img src="./DiceGameImg.png" alt="" />
@@ -140,10 +140,11 @@
 				<a href=""><i class="fa-brands fa-github"></i></a>
 			</div>
 		</section>
-		<section class="fifth-section">
+		<section class="fifth-section" id="contact">
 			<h3>Contact Me</h3>
 			<p>
-				I am currently looking for new opportunities, my inbox is open. If you just want to say Hi or ask a question I'll get back to you.
+				I am currently looking for new opportunities, my inbox is open. If you
+				just want to say Hi or ask a question I'll get back to you.
 			</p>
 			<div class="contact-form-div">
 				<form
@@ -190,12 +191,14 @@
 		</div>
 		<div class="modal">
 			<p class="close">&times;</p>
-			<div class="links">
-			<p id="home">Home</p>
-			<p id="about">About</p>
-			<p id="skills">Skills</p>
-			<p id="projects">Projects</p>
-			<p id="contact">Contact</p>
+			<div class="mobile_links">
+				<ul>
+					<li data-block="home" class="links2">Home</li>
+					<li data-block="about" class="links2">About</li>
+					<li data-block="skills" class="links2">Skills</li>
+					<li data-block="projects" class="links2">Projects</li>
+					<li data-block="contact" class="links2">Contact</li>
+				</ul>
 			</div>
 		</div>
 

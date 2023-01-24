@@ -82,6 +82,12 @@ body {
 	font-weight: 300;
 }
 
+.nav-bar.sticky {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+}
+
 .first-section {
 	height: 100vh;
 	width: 100vw;
@@ -331,6 +337,7 @@ button {
 .modal {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(10, 1fr);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -339,7 +346,8 @@ button {
 	background-color: rgba(0, 0, 0, 0.5);
 	backdrop-filter: blur(5px);
 	z-index: 200;
-
+	display: none;
+	transition: all 1s ease;
 }
 
 .close {
@@ -351,7 +359,7 @@ button {
 	cursor: pointer;
 }
 
-.modal .links {
+.modal .mobile_links {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -359,12 +367,17 @@ button {
 	-ms-transform: translate(-50%, -50%);
 }
 
-.links p {
+.mobile_links li {
 	margin-bottom: 30px;
 	cursor: pointer;
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 300;
 	color: white;
+	list-style: none;
+}
+
+.mobile_links li:hover {
+	border-bottom: 2px solid white;
 }
 
 @media screen and (max-width: 620px) {
