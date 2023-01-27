@@ -159,7 +159,7 @@ ul.links {
 }
 
 .initial-greeting h1 {
-	font-size: 46px;
+	font-size: 40px;
 	font-weight: 360;
 	margin-bottom: 10px;
 }
@@ -167,6 +167,23 @@ ul.links {
 .initial-greeting p {
 	font-size: 30px;
 	font-weight: 300;
+}
+
+.initial-greeting button {
+	background: none;
+	color: white;
+	border: 1px solid silver;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 50px;
+	width: 180px;
+	cursor: pointer;
+	transition: 0.4s ease-in-out;
+}
+
+.initial-greeting button:hover {
+	background: white;
+	color: black;
 }
 
 .headshot {
