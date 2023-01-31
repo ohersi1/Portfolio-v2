@@ -84,7 +84,7 @@ body {
 
 .nav-bar.sticky {
 	position: fixed;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.7);
 	width: 100%;
 }
 
@@ -113,6 +113,7 @@ body {
 	grid-column-start: 12;
 	grid-column-end: 12;
 	font-size: 2.5rem;
+	justify-self: end;
 }
 
 .hamburger-icon i {
@@ -120,7 +121,7 @@ body {
 }
 
 nav.nav-links {
-	grid-column-start: 11;
+	grid-column-start: 12;
 	grid-column-end: 12;
 }
 
@@ -130,14 +131,16 @@ ul.links {
 	list-style: none;
 }
 
-.links a {
+.links li {
 	font-size: 1.7rem;
 	color: #fff;
 	text-decoration: none;
 	cursor: pointer;
+	padding: 5px;
+	padding-right: 10px;
 }
 
-.links a:hover {
+.links li:hover {
 	border-bottom: 2px solid white;
 }
 
@@ -190,7 +193,7 @@ ul.links {
 	height: auto;
 }
 .headshot img {
-	width: 50%;
+	width: 300px;
 	max-width: 100%;
 	padding-top: 40px;
 	margin-left: auto;
@@ -201,7 +204,7 @@ ul.links {
 
 .my-profile h3 {
 	text-align: center;
-	padding: 100px 0px;
+	padding: 70px 0px;
 	font-weight: 500;
 	font-size: 2rem;
 }
@@ -249,6 +252,8 @@ ul.links {
 .card {
 	text-align: center;
 	padding: 50px 0;
+	width: 500px;
+	margin: auto;
 }
 
 .fourth-section h3 {
@@ -279,6 +284,7 @@ ul.links {
 	padding: 100px 0px 10px 0px;
 	font-weight: 500;
 	font-size: 2rem;
+	margin-bottom: 40px;
 }
 
 .fifth-section p {
@@ -287,8 +293,18 @@ ul.links {
 	padding-bottom: 30px;
 }
 
+.fifth-section i {
+	font-size: 3rem;
+	cursor: pointer;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-right: 25px;
+}
+
 .contact-form-div {
 	padding: 20px;
+	margin: auto;
 }
 
 form {
@@ -300,6 +316,8 @@ form {
 	flex-direction: column;
 	padding: 40px;
 	border-radius: 12px;
+	margin: auto;
+	width: 500px;
 }
 
 input[name="Name"],
@@ -318,6 +336,11 @@ button {
 	background-color: white;
 	border: 1px black solid;
 	cursor: pointer;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
 }
 
 .last-section {
@@ -396,14 +419,76 @@ button {
 	border-bottom: 2px solid white;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 958px) {
 	.nav-links {
 		display: none;
 	}
 }
 
-@media screen and (min-width: 621px) {
+@media screen and (min-width: 959px) {
 	.hamburger-icon {
 		display: none;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.my-profile p {
+		font-size: 1.4rem;
+		width: 900px;
+		margin: auto;
+	}
+
+	.card {
+		width: 700px;
+	}
+
+	.card h5 {
+		font-size: 1rem;
+	}
+
+	.card p {
+		font-size: 1.2rem;
+	}
+
+	.card i {
+		font-size: 1.6rem;
+	}
+
+	.fifth-section p {
+		width: 600px;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	.my-profile p {
+		width: 1200px;
+		margin: auto;
+	}
+
+	.card {
+		width: 800px;
+	}
+
+	.card h5 {
+		font-size: 1.1rem;
+	}
+
+	.card p {
+		font-size: 1.3rem;
+	}
+
+	.card i {
+		font-size: 1.7rem;
+	}
+
+	.fifth-section p {
+		width: 900px;
+		margin: auto;
+	}
+
+	form {
+		width: 600px;
+		margin: auto;
 	}
 }

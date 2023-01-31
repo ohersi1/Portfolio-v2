@@ -1,6 +1,7 @@
 const hamburgerIcon = document.querySelector(".hamburger-icon");
 const close = document.querySelector(".close");
 const modal = document.querySelector(".modal");
+const allLinksOriginal = document.querySelectorAll(".links1");
 const allLinks = document.querySelectorAll(".links2");
 const header = document.querySelector(".first-section");
 const secondSection = document.querySelector(".second-section");
@@ -22,6 +23,10 @@ function scrollIntoView(e) {
 	document.getElementById(block).scrollIntoView({ behavior: "smooth" });
 }
 allLinks.forEach((item) => {
+	item.addEventListener("click", scrollIntoView);
+});
+
+allLinksOriginal.forEach((item) => {
 	item.addEventListener("click", scrollIntoView);
 });
 
