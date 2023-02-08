@@ -193,7 +193,8 @@ ul.links {
 	height: auto;
 }
 .headshot img {
-	width: 40%;
+	width: 20%;
+	height: auto;
 	max-width: 100%;
 	padding-top: 40px;
 	margin-left: auto;
