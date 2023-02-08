@@ -193,7 +193,7 @@ ul.links {
 	height: auto;
 }
 .headshot img {
-	width: 300px;
+	width: 40%;
 	max-width: 100%;
 	padding-top: 40px;
 	margin-left: auto;
@@ -291,6 +291,8 @@ ul.links {
 	padding: 10px;
 	font-size: 1.2rem;
 	padding-bottom: 30px;
+	margin: auto;
+	width: 60%;
 }
 
 .fifth-section i {
@@ -423,6 +425,13 @@ button:hover {
 	.nav-links {
 		display: none;
 	}
+	.card {
+		width: 350px;
+	}
+	form {
+		width: 60%;
+		margin: auto;
+	}
 }
 
 @media screen and (min-width: 959px) {
@@ -431,7 +440,163 @@ button:hover {
 	}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 600px) {
+	.card {
+		width: 80%;
+		margin: auto;
+	}
+
+	form {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.card {
+		width: 80%;
+		margin: auto;
+	}
+
+	form {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.my-profile h3 {
+		font-size: 3rem;
+	}
+	.my-profile p {
+		font-size: 1.4rem;
+	}
+
+	.third-section h3 {
+		font-size: 3rem;
+	}
+
+	.tech-stack i {
+		font-size: 7.7rem;
+	}
+
+	.fourth-section h3 {
+		font-size: 3rem;
+	}
+
+	.card h5 {
+		font-size: 1.2rem;
+	}
+	.card p {
+		font-size: 1.3rem;
+	}
+
+	.card i {
+		font-size: 1.9rem;
+	}
+	.fifth-section h3 {
+		font-size: 3rem;
+	}
+	.fifth-section i {
+		font-size: 3.5rem;
+	}
+
+	.fifth-section p {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.my-profile h3 {
+		font-size: 3.2rem;
+	}
+	.my-profile p {
+		font-size: 1.6rem;
+	}
+
+	.third-section h3 {
+		font-size: 3.2rem;
+	}
+
+	.tech-stack i {
+		font-size: 8.2rem;
+	}
+
+	.fourth-section h3 {
+		font-size: 3.2rem;
+	}
+
+	.card h5 {
+		font-size: 1.5rem;
+	}
+	.card p {
+		font-size: 1.5rem;
+	}
+
+	.card i {
+		font-size: 2.4rem;
+	}
+	.fifth-section h3 {
+		font-size: 3.2rem;
+	}
+	.fifth-section i {
+		font-size: 4rem;
+	}
+
+	.fifth-section p {
+		font-size: 1.7rem;
+	}
+	form {
+		width: 60%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.my-profile h3 {
+		font-size: 3.2rem;
+	}
+	.my-profile p {
+		font-size: 1.6rem;
+	}
+
+	.third-section h3 {
+		font-size: 3.2rem;
+	}
+
+	.tech-stack i {
+		font-size: 8.2rem;
+	}
+
+	.fourth-section h3 {
+		font-size: 3.2rem;
+	}
+
+	.card h5 {
+		font-size: 1.5rem;
+	}
+	.card p {
+		font-size: 1.5rem;
+	}
+
+	.card i {
+		font-size: 2.4rem;
+	}
+	.fifth-section h3 {
+		font-size: 3.2rem;
+	}
+	.fifth-section i {
+		font-size: 4rem;
+	}
+
+	.fifth-section p {
+		font-size: 1.7rem;
+	}
+	form {
+		width: 60%;
+	}
+}
+
+/* @media screen and (min-width: 1200px) {
 	.my-profile p {
 		font-size: 1.4rem;
 		width: 900px;
@@ -491,4 +656,4 @@ button:hover {
 		width: 600px;
 		margin: auto;
 	}
-}
+} */
