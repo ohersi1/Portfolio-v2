@@ -336,9 +336,10 @@ button {
 
 button {
 	margin-top: 20px;
-	background-color: white;
+	background-color: black;
 	border: 1px black solid;
 	cursor: pointer;
+	color: white;
 }
 
 button:hover {
