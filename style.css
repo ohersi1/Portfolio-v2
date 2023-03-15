@@ -99,7 +99,6 @@ body {
 		url(https://images.pexels.com/photos/331684/pexels-photo-331684.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* background-attachment: fixed; */
 }
 .nav-bar {
 	display: grid;
